@@ -1,0 +1,12 @@
+@media all and (max-width: 460px) {
+  * {
+    font-size: 18px;
+  }
+  .home-about  {
+    text-align: center;
+  }  
+  .home-about nav {
+    gap: 10px;
+  }
+      
+  }
