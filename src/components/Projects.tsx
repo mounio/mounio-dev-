@@ -6,7 +6,7 @@ export class Projects extends Component {
       <div className='projects'>
           <h3>Projects section</h3>
           <div className="article">
-              <p><strong>Comming soon...</strong></p>
+              <p><strong>Coming soon...</strong></p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Rerum, recusandae doloribus qui molestias similique asperiores incidunt. 
                 Obcaecati tenetur consectetur dolorem eius ex, ad, l
