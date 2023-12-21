@@ -18,14 +18,16 @@ function Contact() {
   return (
     <div ref={form} className='contact'>
        <form onSubmit={sendEmail}>
-        <p>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-        </p>
-        <p>
-          <label>Email</label>
-          <input type="email" name="user_email" />
-        </p>
+        <div className="pers-info">
+          <p>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+          </p>
+          <p>
+            <label>Email</label>
+            <input type="email" name="user_email" />
+          </p>
+        </div>
         <p>
           <label>Message</label>
           <textarea name="message" />
