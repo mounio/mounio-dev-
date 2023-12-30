@@ -14,11 +14,11 @@ function Home() {
         <h4>skils</h4>
           <ul>
             <li>.NET 6.0 - C#</li>
-            <li>ASP.NET en REST API’s (beginner)</li>
-            <li>Reactjs/React native (Expo)</li>
+            <li>ASP.NET en REST API’s</li>
+            <li>Reactjs/React native</li>
             <li>MS SQL</li>
             <li>HTML, CSS, JS/TypeScript</li>
-            <li>Github/Git (beginner)</li>
+            <li>Github/Git </li>
           </ul>
 
         </div>
