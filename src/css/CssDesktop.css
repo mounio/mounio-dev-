@@ -5,9 +5,7 @@
   --tertiary: #74708f;
 }
 body {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+
   font-family: 'Ubuntu', sans-serif;
   background: var(--tertiary);
 }
@@ -60,6 +58,12 @@ main {
 
 
 /* about layout */
+.home-about {
+  text-align: center;
+}
+.home-about ul{
+  list-style: none;
+}
 .home-about nav {
   display: flex;
   justify-content: center;
