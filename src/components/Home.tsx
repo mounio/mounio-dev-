@@ -10,9 +10,9 @@ function Home() {
           I like to stay up to date with new technologies, which is very important as a
           developer.
         </p>
-        <div>
-        <h4>skils</h4>
+        <div className='home-skils'>
           <ul>
+            <li><h4>skils</h4></li>
             <li>.NET 6.0 - C#</li>
             <li>ASP.NET en REST API’s</li>
             <li>Reactjs/React native</li>
