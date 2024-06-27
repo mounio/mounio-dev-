@@ -4,7 +4,6 @@
   --secondary: #231f36;
   --tertiary: #74708f;
 }
-@media all and (max-width: 1200px) {
   body {
   
     font-family: 'Ubuntu', sans-serif;
@@ -121,6 +120,6 @@
     width: auto;
     height: 200px;
   }
-}
+
 
     
