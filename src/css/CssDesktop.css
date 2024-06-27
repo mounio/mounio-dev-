@@ -4,120 +4,123 @@
   --secondary: #231f36;
   --tertiary: #74708f;
 }
-body {
-
-  font-family: 'Ubuntu', sans-serif;
-  background: var(--tertiary);
+@media all and (max-width: 1200px) {
+  body {
+  
+    font-family: 'Ubuntu', sans-serif;
+    background: var(--tertiary);
+  }
+  
+  * {
+    color: #fff;
+    margin: 0;
+  }
+  p {
+    margin: 20px 0;
+  }
+  button {
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    background: var(--primary);
+    cursor: pointer;
+  }
+  
+  /* navbar */
+  header nav {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header nav h1 {
+    margin-right: auto;
+    border-bottom: 3px solid var(--primary);
+  }
+  header nav a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+  }
+  header nav a.active {
+    background: var(--primary);
+  }
+  
+  /* page content */
+  main {
+    margin: 40px 40px 40px 40px;
+    padding: 10px 10px 10px 10px ;
+    background-color: var(--secondary);
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+  }
+  
+  
+  /* about layout */
+  .home-about {
+    text-align: center;
+  }
+  .home-about ul{
+    list-style: none;
+  }
+  .home-about nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+  }
+  .home-about nav a{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .home-about nav a:hover{
+    border-color: var(--primary);
+  }
+  .home-about nav a.active {
+    background: var(--primary);
+  }
+  
+  /* projects */
+  .projects .article {
+    background: rgba(0,0,0,0.2);
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  
+  /* contact form */
+  .contact {
+    text-align: center;
+  }
+  
+  .contact p {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pers-info{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0;
+    color: var(--secondary);
+  }
+  
+  textarea {
+    width: auto;
+    height: 200px;
+  }
 }
 
-* {
-  color: #fff;
-  margin: 0;
-}
-p {
-  margin: 20px 0;
-}
-button {
-  border: 0;
-  padding: 8px;
-  border-radius: 4px;
-  color: white;
-  background: var(--primary);
-  cursor: pointer;
-}
-
-/* navbar */
-header nav {
-  display: flex;
-  gap: 16px;
-  justify-content: end;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-header nav h1 {
-  margin-right: auto;
-  border-bottom: 3px solid var(--primary);
-}
-header nav a{
-  text-decoration: none;
-  padding: 6px;
-  border-radius: 4px;
-}
-header nav a.active {
-  background: var(--primary);
-}
-
-/* page content */
-main {
-  margin: 40px 40px 40px 40px;
-  padding: 10px 10px 10px 10px ;
-  background-color: var(--secondary);
-  border: 2px solid var(--primary);
-  border-radius: 4px;
-}
-
-
-/* about layout */
-.home-about {
-  text-align: center;
-}
-.home-about ul{
-  list-style: none;
-}
-.home-about nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin: 30px 0;
-}
-.home-about nav a{
-  padding: 10px;
-  border: 2px solid white;
-  border-radius: 4px;
-  text-decoration: none;
-}
-.home-about nav a:hover{
-  border-color: var(--primary);
-}
-.home-about nav a.active {
-  background: var(--primary);
-}
-
-/* projects */
-.projects .article {
-  background: rgba(0,0,0,0.2);
-  padding: 5px 20px;
-  border-radius: 4px;
-  margin: 20px 0;
-}
-
-/* contact form */
-.contact {
-  text-align: center;
-}
-
-.contact p {
-  display: flex;
-  flex-direction: column;
-}
-
-.pers-info{
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: space-around;
-}
-
-form input, form textarea {
-  margin-bottom: 10px;
-  padding: 8px;
-  border-radius: 4px;
-  border: 0;
-  color: var(--secondary);
-}
-
-textarea {
-  width: auto;
-  height: 200px;
-}
     
