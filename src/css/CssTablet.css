@@ -83,7 +83,10 @@
   .home-about nav a.active {
     background: var(--primary);
   }
-  
+  .home-skils ul {
+    padding: 30px;
+  }
+
   /* projects */
   .projects .article {
     background: rgba(0,0,0,0.2);

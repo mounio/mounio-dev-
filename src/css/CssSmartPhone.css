@@ -71,6 +71,11 @@
     gap: 30px;
     margin: 30px 0;
   }
+
+  .home-skils ul {
+    padding: 30px;
+  }
+
   .home-about nav a{
     padding: 10px;
     border: 2px solid white;
