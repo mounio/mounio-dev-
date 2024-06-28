@@ -5,7 +5,7 @@ function Home() {
     <div className='home-about'>
         <h2>About me</h2>
         <p>
-          A few years ago I started learning c#, which quickly became one of my favorite programming languages.
+          A few years ago I started learning JAVASCRIPT, which quickly became one of my favorite programming languages.
           I am quite self-taught and learn very quickly, I am social and like to share my knowledge and discoveries.
           I like to stay up to date with new technologies, which is very important as a
           developer.
